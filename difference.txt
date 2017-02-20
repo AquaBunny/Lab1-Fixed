@@ -1,0 +1,22 @@
+21,24c21,24
+< Pages in use: 2, Objects in use: 8, Available objects: 0, Allocs: 8, Frees: 0
+< Pages in use: 2, Objects in use: 7, Available objects: 1, Allocs: 8, Frees: 1
+< Pages in use: 2, Objects in use: 6, Available objects: 2, Allocs: 8, Frees: 2
+< Pages in use: 2, Objects in use: 5, Available objects: 3, Allocs: 8, Frees: 3
+---
+> Pages in use: 2, Objects in use: 7, Available objects: 0, Allocs: 8, Frees: 0
+> Pages in use: 2, Objects in use: 6, Available objects: 1, Allocs: 8, Frees: 1
+> Pages in use: 2, Objects in use: 5, Available objects: 2, Allocs: 8, Frees: 2
+> Pages in use: 2, Objects in use: 4, Available objects: 3, Allocs: 8, Frees: 3
+99,107c99
+< Block at 0x00000000, 36 bytes long.
+<  Data: <    Bobbi       > BB BB BB BB 42 6F 62 62 69 00 BB BB BB BB BB BB
+< Block at 0x00000000, 36 bytes long.
+<  Data: <    Derek       > BB BB BB BB 44 65 72 65 6B 00 BB BB BB BB BB BB
+< Block at 0x00000000, 36 bytes long.
+<  Data: <    Mick        > BB BB BB BB 4D 69 63 6B 00 BB BB BB BB BB BB BB
+< Block at 0x00000000, 36 bytes long.
+<  Data: <    Nigel       > BB BB BB BB 4E 69 67 65 6C 00 BB BB BB BB BB BB
+< Object dump complete. [4]
+---
+> Object dump complete. [0]

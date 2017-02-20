@@ -1,0 +1,26 @@
+100c100
+<  Data: <    Bobbi       > BB BB BB BB 42 6F 62 62 69 00 BB BB BB BB BB BB
+---
+>  Data: <          Bobbi > DD DD DD DD DD DD BB BB BB BB 42 6F 62 62 69 00
+102c102
+<  Data: <    Derek       > BB BB BB BB 44 65 72 65 6B 00 BB BB BB BB BB BB
+---
+>  Data: <      jc2       > DD DD DD DD DD DD 6A 63 32 00 CC CC CC CC CC CC
+104c104
+<  Data: <    Mick        > BB BB BB BB 4D 69 63 6B 00 BB BB BB BB BB BB BB
+---
+>  Data: <          Derek > DD DD DD DD DD DD BB BB BB BB 44 65 72 65 6B 00
+106,107c106,115
+<  Data: <    Nigel       > BB BB BB BB 4E 69 67 65 6C 00 BB BB BB BB BB BB
+< Object dump complete. [4]
+---
+>  Data: <       b2       > DD DD DD DD DD DD DA 62 32 00 CC CC CC CC CC CC
+> Block at 0x00000000, 36 bytes long.
+>  Data: <          Mick  > DD DD DD DD DD DD BB BB BB BB 4D 69 63 6B 00 BB
+> Block at 0x00000000, 36 bytes long.
+>  Data: <      b32       > DD DD DD DD DD DD 62 33 32 00 CC CC CC CC CC CC
+> Block at 0x00000000, 36 bytes long.
+>  Data: <          Nigel > DD DD DD DD DD DD BB BB BB BB 4E 69 67 65 6C 00
+> Block at 0x00000000, 36 bytes long.
+>  Data: <                > DD DD DD DD DD DD 00 00 00 00 CC CC CC CC CC CC
+> Object dump complete. [8]
